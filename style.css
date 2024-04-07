@@ -1,0 +1,62 @@
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+#big-text {
+    font-size: 20px;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+p + p {
+    background-color: lightgray;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: green;
+}
+
+li:nth-child(odd) {
+    background-color: lightblue;
+}
+li:nth-child(even) {
+    background-color: lightgreen;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+p::first-line {
+    font-weight: bold;
+}
+
+div::before {
+    content: "Before content";
+}
+
+::selection {
+    background-color: yellow;
+}
+
+
+div.special-class p span {
+    color: purple;
+}
